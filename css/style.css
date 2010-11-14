@@ -28,15 +28,15 @@ div {
 body {
 	background: #f5e49D;
 }
-#logo h1 {
-  color: #852223;
-}
 a {
   color: #4B0B2F;
   text-decoration: none;
 }
 a:hover {
 	text-decoration: underline;
+}
+#logo h1 a {
+  color: #852223;
 }
 h1, h2, h3, h4, h5, h6 {
   color: #3C3932;
