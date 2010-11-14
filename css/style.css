@@ -41,7 +41,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   color: #3C3932;
 }
-#menu {
+#menu, #menu li ul {
 	background: #7D124E;
 }
 #menu a:link, #menu a:visited {
@@ -124,8 +124,13 @@ p {
 #nav {
 	margin-top: 1.384em;
 }
-#menu li{display: inline}
-#menu ul {margin: 0; padding: 0; }
+#menu ul li{
+	display: inline ; 
+}
+#menu ul {
+	margin: 0; 
+	padding: 0; 
+}
 #menu a {
 	display: block;
 	float: left;
