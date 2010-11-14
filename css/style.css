@@ -168,8 +168,10 @@ p {
 #sidebar li h4 {
 	margin-top: 1em;
 }
-#sidebar li p.time {
+#sidebar li p.time, #sidebar li.last {
 	margin-bottom: 1em;
+}
+p.time {
 	font-style: italic;
 }
 #events, #news {
