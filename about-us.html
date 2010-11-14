@@ -5,41 +5,55 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
 		<title>About Us</title>
 	</head>
-	<body id="about-us">
+	<body id="about">
 		<div id="header">
 		<!-- Logo Section -->
 			<div id="logo">
-			<img src="" alt="" /> 
 				<h1>Cambridge Public Library</h1>
 			</div>
 			<!-- End Logo Section -->
 			<!-- Functional Links Section (Ask a Librarian, Search) -->
 			<div id="functional">
-				<h1>Functional Links</h1>
+				<p><a href="#">Ask A Librarian</a></p>
+				<form action="search" method="post" accept-charset="utf-8">
+					<p><input type="text" name="Search The Library" value="Search the Library" /></p>
+					<p><input type="submit" value="Go" /></p>
+				</form>
 			</div>
 			<!-- End Functional Links -->
 		</div>
 		<div id="nav">
 		<!-- Main Branch Address Location -->
 			<div id="location">
-								<ul>
-				    <li>(617) 555-5555</li>
-				    <li>449 Broadway</li>
-				    <li>Cambridge, MA 02138</li>
-    </ul>
+				<p><a href="#">
+					<strong>Main Library</strong><br />
+				(617) 555-5555<br />
+				449 Broadway<br />
+				Cambridge, MA 02138<br />
+			</a></p>
 			</div>
 			<!-- End Address Location -->
 			<!-- Main Navigation Menu -->
 			<div id="menu">
 							<ul>
-				    <li class="how"><a href="http://www.google.com">How Do I?</a></li>
-				    <li class="find"><a href="http://www.google.com">Find</a></li>
-				    <li class="youth"><a href="http://www.google.com">Youth</a></li>
-				    <li class="city"><a href="http://www.google.com">Cambridge City Services</a></li>
-				    <li class="about">About Us</li>
+				    <li class="how"><a href="#">How Do I?</a></li>
+				    <li class="find"><a href="#">Find</a></li>
+				    <li class="youth"><a href="#">Youth</a></li>
+				    <li class="city"><a href="#">Cambridge City Services</a></li>
+						<li class="about"><a href="#">About Us</a></li>
 				    </ul>
 			</div>
 			<!-- End Main Navigation Menu -->
+			<!-- Breadcrumb Section -->
+			<div id="breadcrumbs">
+			  <ul id="breadcrumbs">
+			  <li><a href="/cpl.aspx" title="Cambridge Public Library">Home</a> &gt; </li>
+			  <li><a href="/cpl.AboutUs.aspx" title="About Us">About Us</a> &gt; </li>
+			  <li>Collections</li>
+			  </ul>
+			  
+				</div>
+			<!-- End Breadcrumbs -->
 		</div>
 		<div id="sidebar">
 		<!-- Events Section -->
@@ -49,20 +63,11 @@
 
 <ul>
   <li>
-    <h3>Friday November 12th</h3>
-  <ul>  
-     <li>
-     <p><strong>Non-Fiction Book Club</strong> @ the Collins Branch</p>
-     <p class="time">11am-12noon</p>
-     </li>
-   </ul>
-   </li>
-
-  <li>
     <h3>Saturday November 13th</h3>
   <ul>
      <li>
-     <p><strong>English Conversation</strong> @ the Main-Community Room</p>
+     <p><strong>English Conversation</strong></p>
+			<p class="location"> Main-Community Room</p>
      <p class="time">10:15am-11:45am</p>
      </li>
   </ul>
@@ -72,50 +77,28 @@
      <h3>Monday November 15th</h3>
   <ul>
       <li>
-      <p><strong>Baby Lapsit</strong> @ the Main-Snail Room</p>
+      <p><strong>Baby Lapsit</strong></p>
+			<p class="location"> Main-Snail Room</p>
       <p class="time">10:00am-11:00am</p>
       </li>
 
 
       <li>
-      <p><strong>Toddler Time</strong> @ the O'Neil Branch</p>
+      <p><strong>Toddler Time</strong></p>
+			<p class="location"> O'Neil Branch</p>
       <p class="time">10:30am-11:00am</p>
       </li>
 
       <li>
-      <p><strong>Preschool Story Time</strong> @ the Boudreau Branch</p>
+      <p><strong>Preschool Story Time</strong></p>
+			<p class="location"> Boudreau Branch</p>
       <p class="time">10:30am-11:00am</p>
       </li>
 
       <li>
-      <p><strong>Toddler Sing</strong> @ the Main-Whale Room</p>
-      <p class="time">11:00am-12:00pm</p>
-      </li>
+			<p><strong>More...</strong>
+			</li>
 
-      <li>
-      <p><strong>Chess Tournament</strong> @ the Main-Teen Lounge</p>
-      <p class="time">3:00pm-5:00pm</p>
-      </li>
-
-      <li>
-      <p><strong>Afternoon Story Time</strong> @ the Valente Branch</p> 
-      <p class="time">3:30pm-4:00pm</p>
-      </li>
-
-      <li>
-      <p><strong>Afternoon Story Time</strong> @ the Collins Branch</p>
-      <p class="time">4:00pm-5:00pm</p>
-      </li>
-
-      <li>
-      <p><strong>English Conversation Group</strong> @ the Valente Branch</p>
-      <p class="time">6:00pm-8:00pm</p>
-      </li>
-
-      <li>
-      <p><strong>English Conversation Group</strong> @ the O'Neill Branch</p> 
-      <p class="time">6:15pm-7:45pm</p>
-      </li>
   </ul>
   </li>
 
@@ -143,34 +126,28 @@
 
 		</div>
 		<div id="main">
-		<!-- Breadcrumb Section -->
-			<div id="breadcrumbs">
-			  <ul id="breadcrumbs">
-			  <li><a href="/cpl.aspx" title="Cambridge Public Library">Home</a></li>
-			  <li><a href="/cpl.AboutUs.aspx" title="About Us">About Us</a></li>
-			  <li>Collections</li>
-			  </ul>
-			  
-				</div>
-			<!-- End Breadcrumbs -->
 			<!-- Content of the Page -->
-			<div id="content">
+			<div class="content">
 				<h1>Collections</h1>
 				    <p>The Cambridge Public Library's collections are diverse in scope and serve to educate, stimulate, and inform the user while also reflecting the individual character of the Cambridge community. Materials are available in many different forms besides print, such as audio, downloadable ebooks, music, film, large print, online resources, magazines and newspapers. </p>
 				    <h2>Special Collections</h2>
 				    <p> <strong>The Black Studies Collection</strong> is housed at the Central Square Branch Library and circulates popular and academic materials. The collection consists of about 750 works by African-American and African authors. Content includes books on the history of Blacks in the South, Civil Rights, works by Harlem Renaissance writers, as well as sports, biographies, histories, poetry, and fiction. </p>
 				    <p> <strong>The Chinese Language Collection</strong> is housed in the O'Connell Branch and has one of the largest collections of Chinese language materials in the Cambridge area. Besides offering DVDs and children's books in the Chinese language, the collection also contains books that are banned in China.</p>
 						<p> The Portuguese Language Collection, called <strong>The Manuel Rogers, Sr. Center for Portuguese Culture and Studies</strong>, is housed at the Valente Branch Library. This is largest collection of Portuguese language books, magazines, newspapers, videos and audio-tapes in the greater Boston area. The center was created in 1983 to serve the Portuguese speaking community and commemorates the devotion of Manuel Rogers, Sr. to the community. The center promotes Portuguese language cultures and draws people of all ages for information and entertainment purposes.  The Cambridge Public Library is very grateful to the Rogers family and friends of their continuing support of the center.</p>
-						<img src="#" alt="photo of reading room"/>
+						<img class="right" src="#" alt="photo of reading room"/>
 			</div>
 			<!-- End Content -->
 		</div>
 		<!-- Footer Section -->
 		<div id="footer">
+			<div id="follow">
 			<h1>Follow</h1>
 			<p>  Facebook: <a href:"http://www.facebook.com/cambridgepl"></p>
 				twitter: <a href:"http://www.twitter.com/cambridgepl"></p> flickr: <a href:"http://www.flickr.com/cambridgepl"></p>
-			<h1>Feedback</h1>
+			</div>
+			<div id="feedback">
+				<h1>Feedback</h1>
+			</div>
 		</div>
 		<!-- End Footer -->
 	</body>
