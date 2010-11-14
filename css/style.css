@@ -1,0 +1,73 @@
+/* Basic Layout */
+div { 
+/*        border: 1px solid #000; */ 
+        background: #ccc;
+        min-height: 80px;
+        float: left;
+}
+#header, #nav, #footer {
+        width: 100%;
+}
+#logo {
+        width: 40%;
+        background: #852223;
+        color: #FFF;
+}
+#functional {
+        width: 60%;
+        background: #d1d1cd;
+}
+#location, #sidebar {
+        width: 25%;
+        text-align:center;
+}
+
+<!-- Begin Menu CSS-->
+#menu {
+        width: 75%;
+        background: #BE403F;
+        font-size:150%;
+}
+
+#menu li{display: inline}
+
+
+#menu a:link, #menu a:visited {
+  padding: 0.4em 1em 0.4em 1em;
+  color: white;
+  text-decoration: none;
+ 
+}
+
+#menu a:hover{background-color:#852223;}
+
+
+#how #menu li.how a:link {color:white}
+#find #menu li.find a:link {color:white}
+#youth #menu li.youth a:link {color:white}
+#city #menu li.city a:link {color:white}
+#about #menu li.about a:link {color:white}
+
+#how #menu li.how a:visited {color:white}
+#find #menu li.find a:visited {color:white}
+#youth #menu li.youth a:visited {color:white}
+#city #menu li.city a:visited {color:white}
+#about #menu li.about a:visited {color:white}
+
+<!--End Menu CSS-->
+
+#news, #events {
+        background: #EADF59;
+        width: 100%;
+}
+#main {
+        width: 75%;
+}
+#breadcrumbs {
+        width: 100%;
+}
+#content {
+        width: 100%;
+        background: #e7eae2;
+}
+
