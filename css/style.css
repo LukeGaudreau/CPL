@@ -121,7 +121,7 @@ p {
 #location, #menu {
 	text-align: center;
 }
-#nav {
+#nav, #menu {
 	margin-top: 1.384em;
 }
 #menu ul li{
