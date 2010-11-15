@@ -48,7 +48,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFF;
   text-decoration: none;
 }
-#menu a:hover {background-color:#4B0B2F;
+#menu a:hover {
+	background-color:#4B0B2F;
 }
 #how #menu li.how a:link {color:#D7C162;}
 #find #menu li.find a:link {color:#D7C162;}
