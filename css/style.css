@@ -4,6 +4,7 @@ body {
 }
 #page {
   min-width: 900px;
+  padding: 1em;
 }
 div { 
   float: left;
@@ -51,9 +52,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFF;
   text-decoration: none;
 }
-#menu a:hover {
+#menu li:hover > a, #menu li:hover ul {
 	background-color:#4B0B2F;
 }
+#menu li ul li:hover > a {color: #D7C162;}
 #how #menu li.how a:link {color:#D7C162;}
 #find #menu li.find a:link {color:#D7C162;}
 #youth #menu li.youth a:link {color:#D7C162;}
@@ -110,6 +112,10 @@ p {
 	font-size: 14px;
 	font-weight: bold;
 }
+#menu li:hover ul li a {
+  font-size: 13px;
+  font-weight: normal;
+}
 /* Logo Layout */
 #logo h1 { 
 	margin: 0;
@@ -127,23 +133,36 @@ p {
 	padding-left: 1em;
 }
 /* Location and Navigation Layout */
-#location, #menu {
+#location {
 	text-align: center;
 }
 #nav, #menu {
 	margin-top: 1.384em;
 }
-#menu ul li{
-	display: inline ; 
-}
-#menu ul {
+
+#menu, #menu ul {
 	margin: 0; 
 	padding: 0; 
+	list-style: none;
 }
 #menu a {
 	display: block;
-	float: left;
 	padding: 1em;
+}
+#menu li {
+  float: left;
+}
+#menu li ul {
+  position: absolute;
+  left: -999em;
+}
+#menu li:hover ul {
+  left: auto;
+  width: 12em;
+}
+#menu li:hover ul a {
+  padding:0.5em 1em 0.5em 1em;
+  width: 10em;
 }
 /* Breadcrumbs Layout */
 #breadcrumbs ul {
