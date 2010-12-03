@@ -112,6 +112,9 @@ p {
 	font-size: 14px;
 	font-weight: bold;
 }
+#suggestion ul {
+  list-style:none;
+}
 #menu li:hover ul li a {
   font-size: 13px;
   font-weight: normal;
