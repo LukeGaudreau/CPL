@@ -216,7 +216,12 @@ p.time {
 .right {
 	float: right;
 }
-
+.left {
+  float: left;
+}
+.clear {
+  clear:both;
+}
 /* Footer Layout */
 #footer h2 {
 	margin-bottom: 1em;
