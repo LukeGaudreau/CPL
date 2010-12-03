@@ -35,6 +35,10 @@ body {
 a {
   color: #4B0B2F;
 }
+a.blue {
+  color: #00F;
+  text-decoration: none;
+}
 a:hover {
 	text-decoration: underline;
 }
@@ -114,6 +118,9 @@ p {
 }
 #suggestion ul {
   list-style:none;
+}
+#suggestion ul li {
+  padding-bottom: 1.5em;
 }
 #menu li:hover ul li a {
   font-size: 13px;
