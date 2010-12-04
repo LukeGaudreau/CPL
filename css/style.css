@@ -325,3 +325,16 @@ p.time {
   margin: 1em 0 1em 0;
   background: url(../images/mln_white.gif) no-repeat left top;
 }
+/* News & Events Post Layout */
+.post {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.post p.location, .post p.time {
+  margin-bottom: 0;
+}
+.post p {
+  width: 80%;
+}
