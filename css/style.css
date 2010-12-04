@@ -96,6 +96,10 @@ h1, h2, h3, h4, h5, h6, input {
 #content img {
   border: 1px solid #3C3932;
 }
+.aside {
+  background: #eee;
+  border: 1px solid #ddd;
+}
 #logo img {
   border:none;
 }
@@ -259,6 +263,12 @@ p.time {
 }
 .clear {
   clear:both;
+}
+/* Aside Layout */
+.aside {
+  width: 200px;
+  margin: 0 2em 0 2em;
+  padding: 0 1em 0 1em;
 }
 /* Footer Layout */
 #footer h2 {
