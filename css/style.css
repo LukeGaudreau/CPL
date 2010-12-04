@@ -27,7 +27,6 @@ div {
 #menu, #main, #breadcrumbs, #footer {
 	width: 70%;
 }
-
 /* Colors */
 body {
 	background: #f5e49D;
@@ -49,37 +48,59 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   color: #3C3932;
 }
-#menu, #menu li ul {
-	background: #7D124E;
+#menu {
+	background: #7D124E url(../images/menu.png);
+}
+#menu {
+  border: 1px solid #C40075;
 }
 #menu a:link, #menu a:visited {
   color: #FFF;
   text-decoration: none;
+  border-right: 1px solid #810056;
+  border-left: 1px solid #7D124E;
 }
 #menu li:hover > a, #menu li:hover ul {
 	background-color:#4B0B2F;
 }
-#menu li ul li:hover > a {color: #D7C162;}
-#how #menu li.how a:link {color:#D7C162;}
-#find #menu li.find a:link {color:#D7C162;}
-#youth #menu li.youth a:link {color:#D7C162;}
-#city #menu li.city a:link {color:#D7C162;}
-#about #menu li.about a:link {color:#D7C162;}
-#how #menu li.how a:visited {color:#D7C162;}
-#find #menu li.find a:visited {color:#D7C162;}
-#youth #menu li.youth a:visited {color:#D7C162;}
-#city #menu li.city a:visited {color:#D7C162;}
-#about #menu li.about a:visited {color:#D7C162;}
+#menu li:hover ul a {
+  border: none;
+}
+/*#menu li:hover > a:link, #menu li:hover > a:hover, #menu li:hover > a:visited {
+  border: 1px;
+}*/
+#menu li:hover ul {
+  border-bottom: 1px solid #C40075;
+  border-left: 1px solid #C40075;
+  border-right: 1px solid #C40075;
+}
+#menu a:hover {color: #D7C162;}
+/*#menu li ul li:hover > a {color: #D7C162;}*/
+#home #menu li.home a:link,
+#home #menu li.home a:visited,
+#how #menu li.how a:link,
+#find #menu li.find a:link,
+#youth #menu li.youth a:link,
+#city #menu li.city a:link,
+#about #menu li.about a:link,
+#how #menu li.how a:visited,
+#find #menu li.find a:visited,
+#youth #menu li.youth a:visited,
+#city #menu li.city a:visited,
+#about #menu li.about a:visited {background: #4B0B2F;}
 
-#main, #news, #events, #content img {
+#main, #news, #events {
 	background-color: #FFF;
-	border: 1px solid #52615D;
+	border: 1px solid #D9CE52;
+}
+#content img {
+  border: 1px solid #3C3932;
 }
 #logo img {
   border:none;
 }
 #sidebar h2 {
-	background: #EADF59;
+	background: #EADF59 url(../images/sidebar_hdr.png);
 }
 /* Typography */
 body {
@@ -149,15 +170,18 @@ p {
 #nav, #menu {
 	margin-top: 1.384em;
 }
-
-#menu, #menu ul {
+#menu {
+  margin: 0;
+  padding: 0;
+}
+#menu ul {
 	margin: 0; 
 	padding: 0; 
 	list-style: none;
 }
 #menu a {
 	display: block;
-	padding: 1em;
+	padding: 0.75em 1.2em 0.75em 1.2em;
 }
 #menu li {
   float: left;
@@ -168,11 +192,11 @@ p {
 }
 #menu li:hover ul {
   left: auto;
-  width: 12em;
+  width: 14em;
 }
 #menu li:hover ul a {
   padding:0.5em 1em 0.5em 1em;
-  width: 10em;
+  width: 12em;
 }
 /* Breadcrumbs Layout */
 #breadcrumbs ul {
@@ -254,4 +278,28 @@ p.time {
 }
 #flickr a {
 	background: url("../images/flickr_16.png") no-repeat top left;
+}
+/* HOME LAYOUT */
+#home #main {
+  background: transparent;
+  border: none;
+  margin-top: -3em;
+}
+#home #main #content {
+  width: 608px;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+}
+#home img {
+  border: 2px solid #f5e49D;
+  margin: 0px;
+  padding: none;
+}
+#home img.youth {
+  border-top: 2px solid #f5e49D;
+  margin-top: 2px;
+}
+#home #content img:hover {
+  border-color: #7D124E;
 }
