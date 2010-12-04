@@ -45,7 +45,7 @@ a:hover {
   color: #852223;
   text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, input {
   color: #3C3932;
 }
 #menu {
@@ -102,6 +102,10 @@ h1, h2, h3, h4, h5, h6 {
 #sidebar h2 {
 	background: #EADF59 url(../images/sidebar_hdr.png);
 }
+.required {
+  color: red;
+  font-style: italic;
+}
 /* Typography */
 body {
 	font: normal 13px/18px Helvetica, Arial, sans-serif;
@@ -123,7 +127,7 @@ h2 {
 h3 {
 	font-size: 14px;
 }
-h4 {
+h4, #suggestion h3 {
 	font-size: 13px;
 }
 h5 {
