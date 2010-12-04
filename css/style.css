@@ -303,3 +303,11 @@ p.time {
 #home #content img:hover {
   border-color: #7D124E;
 }
+/* Catalog Quick Search Layout */
+#catalog {
+  width: 50%;
+  float: left;
+  padding: 1em 0 3em 0 ;
+  margin: 1em 0 1em 0;
+  background: url(../images/mln_white.gif) no-repeat left top;
+}
