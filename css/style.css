@@ -271,6 +271,9 @@ p.time {
   padding: 0 1em 0 1em;
 }
 /* Footer Layout */
+#footer {
+  float: right;
+}
 #footer h2 {
 	margin-bottom: 1em;
 }
