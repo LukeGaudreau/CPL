@@ -332,6 +332,9 @@ p.time {
   margin: 1em 0 1em 0;
   background: url(../images/mln_white.gif) no-repeat left top;
 }
+fieldset {
+  display:none;
+}
 /* News & Events Post Layout */
 .post {
   width: 100%;
