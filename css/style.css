@@ -333,7 +333,9 @@ p.time {
   background: url(../images/mln_white.gif) no-repeat left top;
 }
 fieldset {
-  display:none;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 /* News & Events Post Layout */
 .post {
