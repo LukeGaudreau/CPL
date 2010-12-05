@@ -34,10 +34,6 @@ body {
 a {
   color: #4B0B2F;
 }
-a.blue {
-  color: #00F;
-  text-decoration: none;
-}
 a:hover {
 	text-decoration: underline;
 }
@@ -45,8 +41,14 @@ a:hover {
   color: #852223;
   text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6, input {
+h1, h2, h3, h4, h5, h6, input, #sidebar h2 a {
   color: #3C3932;
+}
+#sidebar h2 a {
+  text-decoration: none;
+}
+#sidebar h2 a:hover {
+  text-decoration: underline;
 }
 #menu {
 	background: #7D124E url(../images/menu.png);
